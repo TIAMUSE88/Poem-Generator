@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/typewriter-effect@2.18.2/dist/core.js"></script>
     <title>AI Poem Generator</title>
 </head>
 
@@ -14,13 +15,12 @@
             <h1>Welcome to the AI Poem Generator</h1>
         </header>
         <main>
-            <form>
+            <form id="poem-generator-form">
                 <input type="text" id="input" placeholder="Enter a word or phrase to inspire your poem..." autofocus
                     required autocomplete="off" class="prompt" />
                 <input type="submit" class="generatebutton" value="Generate Poem" />
             </form>
-
-
+            <div class="poem" id="poem"> </div>
 
 
             <footer>This AI Project was coded by Tracey-Marie and open-sourced on <a

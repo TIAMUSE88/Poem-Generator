@@ -41,6 +41,17 @@ form {
   padding: 14px 24px;
 }
 
+.poem {
+  font-size: 16px;
+  background-color: #fff;
+  padding: 20px;
+  line-height: 2;
+  border-left: 3px solid rgb(233, 146, 188);
+  box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
+  margin-top: 30px;
+  font-family: "Courier New", Courier, monospace;
+}
+
 .prompt {
   padding: 15px;
   font-size: 16px;
