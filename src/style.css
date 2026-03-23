@@ -7,6 +7,11 @@ body {
   margin: 120px auto;
 }
 
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 h1 {
   color: rgb(87, 50, 68);
   text-align: center;
@@ -21,21 +26,39 @@ form {
   align-items: center;
   border-radius: 15px;
   padding: 20px;
+  padding: 30px;
+}
+
+.generatebutton {
+  font-size: 16px;
+  background-color: rgb(97, 27, 61);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-left: 10px;
+  width: 150px;
+  padding: 14px 24px;
 }
 
 .prompt {
-  flex: 1;
   padding: 15px;
   font-size: 16px;
-  border: 1px solid;
-  border-radius: 15px;
+  border: 1px solid rgb(233, 146, 188);
+  border-radius: 50px;
   margin-right: 10px;
   line-height: 20px;
+  width: 80%;
 }
 
 footer {
   text-align: center;
-  margin-top: 50px;
-  font-size: 14px;
-  color: rgb(87, 50, 68);
+  margin-top: 30px;
+  font-size: 12px;
+  color: rgb(99, 93, 96);
+}
+
+a {
+  color: rgb(240, 7, 123);
+  text-decoration: none;
 }
