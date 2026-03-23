@@ -1,3 +1,41 @@
 body {
   background-color: lightpink;
+  font-family: celebri sans-serif;
+}
+.container {
+  max-width: 600px;
+  margin: 120px auto;
+}
+
+h1 {
+  color: rgb(87, 50, 68);
+  text-align: center;
+  margin-top: 50px;
+  line-height: 1.5;
+  font-weight: 800;
+}
+
+form {
+  display: flex;
+  background-color: white;
+  align-items: center;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.prompt {
+  flex: 1;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid;
+  border-radius: 15px;
+  margin-right: 10px;
+  line-height: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 14px;
+  color: rgb(87, 50, 68);
 }
