@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typewriter-effect@2.18.2/dist/core.js"></script>
     <title>AI Poem Generator</title>
 </head>
@@ -12,14 +13,14 @@
 <body>
     <div class="poem-container">
         <header>
-            <h1>Welcome to the AI Poem Generator</h1>
+            <h1> AI Poem Generator</h1>
         </header>
 
 
         <main>
             <form id="poem-generator-form">
                 <input type="text" placeholder="Enter a word or phrase to inspire your poem..." autofocus required
-                    autocomplete="off" class="prompt" />
+                    autocomplete="off" class="prompt" id="user-input" />
                 <input type="submit" class="generatebutton" />
             </form>
             <div class="poem" id="poem"> </div>
