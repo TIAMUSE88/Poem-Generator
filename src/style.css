@@ -23,15 +23,24 @@ h1 {
   font-style: normal;
 }
 
-form {
-  display: flex;
+.form-container {
   background-color: white;
   align-items: center;
   border-radius: 15px;
   padding: 20px;
   padding: 30px;
+  box-shadow: 0px 20px 60px rgba (65, 50, 100, 0.08);
 }
 
+form {
+  display: flex;
+}
+
+.hint {
+  font-size: 12px;
+  margin-top: 5px;
+  line-height: 1.5px;
+}
 .generatebutton {
   font-size: 16px;
   background-color: rgb(97, 27, 61);

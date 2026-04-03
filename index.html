@@ -18,11 +18,14 @@
 
 
         <main>
-            <form id="poem-generator-form">
-                <input type="text" placeholder="Enter a word or phrase to inspire your poem..." autofocus required
-                    autocomplete="off" class="prompt" id="user-input" />
-                <input type="submit" class="generatebutton" />
-            </form>
+            <div class="form-container">
+                <form id="poem-generator-form">
+                    <input type="text" placeholder="Enter a word or phrase to inspire your poem..." autofocus required
+                        autocomplete="off" class="prompt" id="user-input" />
+                    <input type="submit" class="generatebutton" />
+                </form>
+                <small class="hint">i.e: Love, Money or Dreams</small>
+            </div>
             <div class="poem" id="poem"> </div>
         </main>
 
